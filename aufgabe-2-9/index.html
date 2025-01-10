@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        padding: 2rem;
+        font-family: sans-serif;
+      }
+
+      a {
+        position: relative;
+        padding: 10px 30px;
+        border: 2px solid #00005B;
+        color: #00005B;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: .3s;
+      }
+
+      a:hover {
+        color: #FFFFFF;
+        background-color: #00005B;
+      }
+
+      a::after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        background-color: #00005B;
+        width: .001px;
+        height: 550px;
+        content: "";
+      }
+
+      a:hover::after {
+        width: 200px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <a href="#">Register</a>
+    <a href="#">Apply</a>
+    <a href="#">Feedback</a>
+  </body>
+
+</html>
