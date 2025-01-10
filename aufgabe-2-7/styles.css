@@ -1,0 +1,38 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-color: #EEE;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header, main, footer {
+  padding: 1rem 10%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  padding: 1rem;
+}
